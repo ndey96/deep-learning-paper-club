@@ -1,0 +1,118 @@
+:root {
+	--secondary-color: black;
+	--primary-color: white;
+};
+
+body {
+	margin: 0;
+	padding: 50px 0 0 0;
+	width: 100%;
+	font-weight: 500;
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	background-color: var(--primary-color);
+}
+html {background-color: var(--primary-color)}
+
+.section1 {
+	background-color: var(--primary-color);
+	padding: 30px 0 30px 0;
+}
+
+.section1-container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+	.section1-container {
+		width: 90%;
+	}
+}
+
+.title {
+	font-size: 96px;
+	font-weight: 400;
+	text-align: center;
+	color: var(--secondary-color);
+}
+
+.bio {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: var(--secondary-color);
+	margin-bottom: 30px;
+}
+
+.links {
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.portrait-container {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.portrait-container img {
+	width: 240px;
+	text-align: center;
+}
+
+/*.projects {
+	display: inline-table;
+	margin-bottom: 20px;
+}
+
+.project {
+	padding: 40px 0;
+	display: inline-flex;
+	width: 50%
+}
+
+.project-image {
+	display: inline-block;
+	margin-left: 20px;
+	width: 30%;
+}
+
+.project-image img {
+	width: 100%;
+	max-width: 350px;
+}
+
+.project-text {
+	color: var(--primary-color);
+	margin: 0 10px 0 20px;
+	width: 70%;
+}
+
+.project-title {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.project-description {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.portfolio-container {
+  margin: 10px 0;
+}
+
+.section-title {
+	font-weight: 400;
+	font-size: 48px;
+	padding:20px;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.end-title {
+	margin-bottom: 30px;
+}*/
+
