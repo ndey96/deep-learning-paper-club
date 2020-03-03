@@ -8,10 +8,15 @@ body {
 	padding: 50px 0 0 0;
 	width: 100%;
 	font-weight: 500;
+	/*font-family: "Avenir Next";*/
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	background-color: var(--primary-color);
 }
 html {background-color: var(--primary-color)}
+
+.custom-body {
+	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
 
 .section1 {
 	background-color: var(--primary-color);
@@ -45,22 +50,41 @@ html {background-color: var(--primary-color)}
 	margin-top: 30px;
 }
 
-.links {
+.join-button {
 	font-size: 24px;
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 30px;
+	background-color: aliceblue;
+	width: 250px;
+	margin: 0 auto;
+	border-radius: 14px;
+	padding: 12px;
+}
+
+.join-button a {
+	text-decoration: none;
+	color: black;
 }
 
 .meetings {
 	width: 100%;
 	text-align: center;
 	font-size: 24px;
+	border-collapse: collapse;
+}
+
+.meetings tr {
+	border-bottom: 1px solid lightgrey;
+}
+
+.meetings td {
+	padding: 10px 0;
 }
 
 .meetings-title {
 	font-weight: 500;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	font-size: 24px;
 	text-align: center;
 	color: var(--secondary-color);
