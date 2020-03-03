@@ -82,6 +82,10 @@ html {background-color: var(--primary-color)}
 	padding: 10px 0;
 }
 
+.meetings a {
+	color: black;
+}
+
 .meetings-title {
 	font-weight: 500;
 	/*text-decoration: underline;*/
