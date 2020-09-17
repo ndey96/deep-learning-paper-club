@@ -55,7 +55,8 @@ html {background-color: var(--primary-color)}
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 30px;
-	background-color: aliceblue;
+	/*background-color: aliceblue;*/
+	background-color: black;
 	width: 250px;
 	margin: 0 auto;
 	border-radius: 14px;
@@ -64,7 +65,8 @@ html {background-color: var(--primary-color)}
 
 .join-button a {
 	text-decoration: none;
-	color: black;
+	/*color: black;*/
+	color: white;
 }
 
 .meetings {
