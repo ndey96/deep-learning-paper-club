@@ -50,7 +50,13 @@ html {background-color: var(--primary-color)}
 	margin-top: 30px;
 }
 
+.buttons {
+	margin: 0 auto;
+	width: max-content;
+}
+
 .join-button {
+	display: inline-block;
 	font-size: 24px;
 	font-weight: 400;
 	text-align: center;
@@ -89,9 +95,9 @@ html {background-color: var(--primary-color)}
 }
 
 .meetings-title {
-	font-weight: 500;
+	font-weight: 400;
 	/*text-decoration: underline;*/
-	font-size: 24px;
+	font-size: 48px;
 	text-align: center;
 	color: var(--secondary-color);
 	margin-bottom: 30px;
